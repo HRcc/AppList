@@ -16,7 +16,7 @@
 				$appsno = 0;
 
 				foreach ($apps as $app) {
-					if ($app != '.' && $app != '..' && $app != 'list'){
+					if ($app[0] != '.' && $app != 'list'){
 						$appsno++;
 						echo "<li>
 								<div class=\"content\">
