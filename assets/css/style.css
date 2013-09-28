@@ -8,7 +8,7 @@
 	a { color: #fff; }
 	a:hover { color: #333 }
 
-	div#settings-panel
+	div#apps-panel
 	{
 		display: table;
 		width: 320px;
@@ -19,7 +19,7 @@
 		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px 4px;
 	}
 
-	div#settings-panel > header
+	div#apps-panel > header
 	{
 		position: relative;
 		padding: 3px 10px;
@@ -41,7 +41,7 @@
 		border-top-right-radius: 3px;
 	}
 
-	div#settings-panel > header .title
+	div#apps-panel > header .title
 	{
 		display: table;
 		text-align: center;
@@ -52,7 +52,7 @@
 		margin: 0 auto;
 	}
 
-	div#settings-panel > header .close
+	div#apps-panel > header .close
 	{
 		display: table;
 		position: absolute;
@@ -61,22 +61,22 @@
 		opacity: 0.5;
 	}
 
-	div#settings-panel > header .close:hover
+	div#apps-panel > header .close:hover
 	{
 		opacity: 1;
 	}
 
-	div#settings-panel > header .title strong
+	div#apps-panel > header .title strong
 	{
 		color: #fff;
 	}
 
-	div#settings-panel > section#content ul
+	div#apps-panel > section#content ul
 	{
 		list-style: none;
 	}
 
-	div#settings-panel > section#content ul li
+	div#apps-panel > section#content ul li
 	{
 		display: table;
 		width: 100%;
@@ -86,12 +86,12 @@
 
 	}
 
-	div#settings-panel > section#content ul li:last-child
+	div#apps-panel > section#content ul li:last-child
 	{
 		border-bottom: none;
 	}
 
-	div#settings-panel > section#content ul li .icon
+	div#apps-panel > section#content ul li .icon
 	{
 		display: table-cell;
 		width: 48px;
@@ -102,7 +102,7 @@
 		border-right: 1px solid #43484c;
 	}
 
-	div#settings-panel > section#content ul li .content
+	div#apps-panel > section#content ul li .content
 	{
 		display: table-cell;
 		vertical-align: middle;
@@ -115,13 +115,13 @@
 		width: 100%;
 	}
 
-	div#settings-panel > section#content ul li .content img
+	div#apps-panel > section#content ul li .content img
 	{
 		position: relative;
 		float: right;
 	}
 
-	div#settings-panel > section#content ul li .check
+	div#apps-panel > section#content ul li .check
 	{
 		display: table-cell;
 		vertical-align: middle;
@@ -129,7 +129,7 @@
 		padding-left: 10px;
 	}
 
-	div#settings-panel > section#content ul li .check:hover
+	div#apps-panel > section#content ul li .check:hover
 	{
 		opacity: 1;
 	}

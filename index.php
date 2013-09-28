@@ -39,7 +39,7 @@
 			}
 		?>
 
-		<div id="settings-panel">
+		<div id="apps-panel">
 			<header>
 				<span class="title"><strong>Application List @ Raphael</strong></span>
 			</header>
