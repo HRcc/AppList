@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 
-		<title>Applist @ Raphael</title>
+		<title>Applist @ <?php getName(); ?></title>
 
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" charset="utf-8" />
 	</head>
@@ -50,11 +50,17 @@
 						  </li>";
 				}
 			}
+
+			function getName() {
+				$host = substr($_SERVER['HTTP_HOST'],0,-11);
+				$name = substr($host,3);
+				echo ucwords($name);
+			}
 		?>
 
 		<div id="apps-panel">
 			<header>
-				<span class="title"><strong>Application List @ Raphael</strong></span>
+				<span class="title"><strong>Application List @ <?php getName(); ?></strong></span>
 			</header>
 
 			<section id="content">
