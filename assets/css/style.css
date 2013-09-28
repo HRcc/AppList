@@ -5,8 +5,18 @@
 	.clear { clear: both; }
 
 
-	a { color: #fff; }
-	a:hover { color: #333 }
+	a {
+		color: #fff;
+	    border-bottom: 1px solid #5a6066;
+	    -webkit-transition: 0.5s ease;
+	            transition: 0.5s ease;
+	}
+
+	a:hover {
+		border-bottom: 1px solid #fff;
+	    -webkit-transition: 0.5s ease;
+	            transition: 0.5s ease;
+	}
 
 	div#apps-panel
 	{
