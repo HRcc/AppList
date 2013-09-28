@@ -52,7 +52,7 @@
 			}
 
 			function getName() {
-				$host = substr($_SERVER['HTTP_HOST'],0,-11);
+				$host = preg_replace('/[.].*/', '', $_SERVER['HTTP_HOST']);
 				$name = substr($host,3);
 				echo ucwords($name);
 			}
