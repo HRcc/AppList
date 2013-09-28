@@ -18,9 +18,22 @@
 				foreach ($apps as $app) {
 					if ($app[0] != '.' && $app != 'list'){
 						$appsno++;
+						$url = $app;
+
+						// Laravel App Support
+						$content = scandir($path."/".$app);
+
+
+						foreach ($content as $folder) {
+							if ($folder == "public") {
+								$url = $url."/public";
+							}
+						}
+
+
 						echo "<li>
 								<div class=\"content\">
-									<a href=\"/$app\">
+									<a href=\"/$url\">
 										$app
 										<img src=\"assets/images/arrow.png\"/>
 									</a>
