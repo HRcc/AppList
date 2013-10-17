@@ -5,6 +5,8 @@
 
 		<title>Applist @ <?php getName(); ?></title>
 
+		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" charset="utf-8" />
 	</head>
 
