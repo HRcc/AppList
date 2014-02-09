@@ -20,7 +20,7 @@
 				foreach ($apps as $app) {
 					if ($app[0] != '.' && $app != 'list'){
 						$appsno++;
-						$url = 'projects/'.$app;
+						$url = $app;
 
 						// Laravel App Support
 						$content = scandir($path."/".$app);
